@@ -2,12 +2,10 @@
 
 import { useEffect, useState } from 'react';
 
-interface SleeperRoster {
-  owner_id: string;
-  settings: {
-    wins: number;
-    losses: number;
-  };
+interface SleeperUser {
+  user_id: string;
+  display_name: string;
+  avatar?: string;
 }
 
 interface SleeperRoster {
