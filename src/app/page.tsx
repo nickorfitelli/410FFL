@@ -128,7 +128,6 @@ export default function Home() {
   };
   return (
   <div className="min-h-screen bg-gray-100 p-4">
-    <h1 className="text-3xl font-bold mb-8 text-gray-900">410 FFL</h1>
     {renderLeague('League 1', league1.users, league1.rosters)}
     {renderLeague('League 2', league2.users, league2.rosters)}
   </div>
