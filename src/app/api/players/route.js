@@ -1,4 +1,4 @@
-export const revalidate = 60 * 60 * 24 * 7; // cache for 7 days
+export const revalidate = 604800; // cache for 7 days
 
 export async function GET() {
   const res = await fetch('https://api.sleeper.app/v1/players/nfl', {
