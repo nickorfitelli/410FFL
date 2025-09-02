@@ -1,4 +1,4 @@
-export const revalidate = 60 * 60 * 6; // 6h
+export const revalidate = 604800 // 6h
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
