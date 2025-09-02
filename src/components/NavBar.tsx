@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 const navItems = [
   { name: 'Dashboard', href: '/' },
-  { name: 'Teams', href: '/teams' },
   { name: 'Leaderboard', href: '/leaderboard' },
   { name: 'Matchups', href: '/matchups' },
 ];
